@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace API.UTRG.Models
 {
-    public class RedesSociales
+    public class RedSocialForAdd
     {
-        public int ID { get; set; }
-        [Required(ErrorMessage ="Este Campo es Requerido")]
+        [Required(ErrorMessage = "Este Campo es Requerido")]
         public string Nombre { get; set; }
         public string RedSocial { get; set; }
     }
